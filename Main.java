@@ -15,6 +15,7 @@ public class Main {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the serial number of the palindrome you are interested in: ");
         int num;
+        
         while (!scn.hasNextInt()) {
             System.out.print("Invalid value! Please, try again: ");
             scn.next();
