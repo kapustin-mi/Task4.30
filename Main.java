@@ -45,8 +45,7 @@ public class Main {
     }
 
     private static boolean checkPalindrome(int num) {
-        int newNum = 0, remainder;
-        int oldNum = num;
+        int newNum = 0, remainder, oldNum = num;
 
         while (num != 0) {
             remainder = num % 10;
